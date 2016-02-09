@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Kernel
-TARGET_KERNEL_SOURCE := kernel/sony/msm
-
 # Inherit AOSP Kitakami common device parts
 $(call inherit-product, device/sony/ivy/aosp_e6553.mk)
 
