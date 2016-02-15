@@ -15,9 +15,6 @@
 # Inherit AOSP Kitakami common device parts
 $(call inherit-product, device/sony/ivy/aosp_e6553.mk)
 
-# Inherit Omni Kitakami common device parts
-$(call inherit-product, device/sony/kitakami-common/device_omni.mk)
-
 # Inherit GSM/telephony parts
 $(call inherit-product, device/sony/common/radio.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
