@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_e6553-userdebug
+add_lunch_combo omni_ivy-userdebug
