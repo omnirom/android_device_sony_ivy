@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Bootanimation
+TARGET_BOOTANIMATION_SIZE := 1080x608
+
 # Inherit AOSP Kitakami common device parts
 $(call inherit-product, device/sony/ivy/aosp_e6553.mk)
 
