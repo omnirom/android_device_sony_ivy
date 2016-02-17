@@ -15,6 +15,10 @@
 # Bootanimation
 TARGET_BOOTANIMATION_SIZE := 1080x608
 
+# TWRP
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+TW_THEME := portrait_hdpi
+
 # Inherit AOSP Kitakami common device parts
 $(call inherit-product, device/sony/ivy/aosp_e6553.mk)
 
@@ -28,5 +32,3 @@ PRODUCT_MODEL := Xperia Z3+
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ivy,E6553
-
-TW_THEME := portrait_hdpi
