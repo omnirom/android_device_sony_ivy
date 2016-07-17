@@ -19,12 +19,9 @@ TW_THEME := portrait_hdpi
 # Inherit AOSP Kitakami common device parts
 $(call inherit-product, device/sony/ivy/aosp_e6553.mk)
 
-# Inherit GSM/telephony parts
-$(call inherit-product, device/sony/common/radio.mk)
+# Inherit Omni GSM telephony parts
+PRODUCT_PROPERTY_OVERRIDES += telephony.lteOnGSMDevice=1
 $(call inherit-product, vendor/omni/config/gsm.mk)
-
-# Inherit Omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
 
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_ivy
